@@ -1,5 +1,5 @@
-import React from 'react'
-import './styling/Pokecard.css'
+import React from 'react';
+import '../styling/Pokecard.css';
 const POKE_API = `https://raw.githubusercontent.com/pokeapi/sprites/master/sprites/pokemon/`;
 
 const Pokecard = ({id, name, type, exp}) => {
