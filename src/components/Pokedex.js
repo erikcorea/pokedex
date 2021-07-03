@@ -1,6 +1,7 @@
 import React from 'react';
 import Pokecard from './Pokecard';
 
+
 const Pokedex  = () => {
     const pokemon = [
             { id: 4, name: 'Charmander', type: 'fire', base_experience: 62},
@@ -10,7 +11,8 @@ const Pokedex  = () => {
             { id: 25, name: 'Pikachu', type: 'fire', base_experience: 62},
             { id: 39, name: 'Jigglypuff', type: 'fire', base_experience: 62},
             { id: 94, name: 'Gengar', type: 'fire', base_experience: 62},
-            { id: 133, name: 'Eevee', type: 'fire', base_experience: 62}
+            { id: 133, name: 'Eevee', type: 'fire', base_experience: 62},
+            { id: 6, name: 'Charizard', type: 'fire', base_experience: 69}
         ]
 
     return (
