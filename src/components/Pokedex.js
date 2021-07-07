@@ -1,5 +1,6 @@
 import React from 'react';
 import Pokecard from './Pokecard';
+import '../styling/Pokedex.css';
 
 
 const Pokedex  = () => {
@@ -18,9 +19,11 @@ const Pokedex  = () => {
     return (
         <div className="pokedex-container">
             <h1>Pokedex!</h1>
-            {pokemon.map((p) => (
-                <Pokecard id={p.id} name={p.name} type={p.type} exp={p.base_experience} />
-            ))}
+            <div className="pokedex-cards">
+                {pokemon.map((p) => (
+                    <Pokecard id={p.id} name={p.name} type={p.type} exp={p.base_experience} />
+                ))}
+            </div>
         </div>
     )
 }

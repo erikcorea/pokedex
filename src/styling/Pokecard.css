@@ -1,3 +1,13 @@
 .pokecard-container{
-    border: 2px solid green;
+    width: 300px;
+    margin: 1rem;
+    padding: 10px;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.pokecard-data{
+    font-size: 80%;
 }
